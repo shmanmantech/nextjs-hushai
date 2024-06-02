@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start",
+	  "export": "next build && next export"
+
+  },
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "next": "latest",
+    "node-fetch": "^2.7.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "stream-browserify": "^3.0.0",
+    "webpack": "^5.91.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "next-transpile-modules": "^10.0.1"
+  }
+}
